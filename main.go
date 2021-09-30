@@ -1,5 +1,10 @@
 package main
 
+import "github.com/ananya/lukruk/managers"
+
 func main() {
-	println("Hello Golang!!!")
+	numberOne := managers.Number{
+		TitleNumber: "1", DescriptionNumber: "Number ONE",
+	}
+	println("Hello Golang!!! xxxx " + numberOne.DescriptionNumber)
 }
